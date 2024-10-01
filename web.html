@@ -1,0 +1,265 @@
+<html>
+    <head>
+        <title>Navigation bar</title>
+        <link rel="stylesheet" href="boot/css/bootstrap.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- bootstrap website->getting started->cdn via jsdelivr->copy first link and paste it inside the head tag -->
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="images/1OIP.jpeg" alt="navbar-toggler-icon" width="50px" height="50px">
+          <a class="navbar-brand" href="#" style="font-family:fantasy ;color: rgb(226, 43, 189); font-size:x-large;"  >Clothing</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="font-family:fantasy;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="font-family: fantasy ;">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family:fantasy;">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#" style="font-family:cursive;">Pants</a></li>
+                  <li><a class="dropdown-item" href="#" style="font-family:cursive;">Tops</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#" style="font-family:cursive;">Other</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" style="font-family: fantasy ;">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" style="font-family: fantasy ;">Review</a>
+                  </li>
+                 
+              
+            </ul>
+           
+            <form class="d-flex">
+              
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+              <button class="gradient-btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- carousel -->
+ <div>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/2bg1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/3bg2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/4bg3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<br>
+<div class="alert alert-danger" role="alert" style= "font-size:large; font-family:Verdana, Geneva, Tahoma, sans-serif; color: rgb(26, 22, 26);text-indent: 35%;">Quality Assured  |       Free Delivery     |    100% pure</div>
+<div class="alert alert-success" role="alert" style="text-align: center; font-size:xx-large; font-family:fantasy; color: rgb(226, 43, 226);">Latest Products</div>
+  
+</div>
+</div>
+
+
+<!-- cards -->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                    <img src="images\d1.jpg" class="card-img-top" height="250" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">JC JUMMY COUTURE</h5>
+                    <p class="card-text">₹499 <br>Free delivery</p>
+                    <a href="#" class="btn btn-info">Add to whishlist</a>
+                    </div>
+                    </div>
+                </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                <img src="images\d2.jpg" class="card-img-top" height="250" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">NAGMA</h5>
+                <p class="card-text">₹399 <br>Free delivery</p>
+                <a href="#" class="btn btn-info">Add to whishlist</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+                <div class="card" style="width: 18rem;">
+                <img src="images\d3.jpg" class="card-img-top" height="250" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">PRETTIFY</h5>
+                <p class="card-text">₹399<br>Free delivery</p>
+                <a href="#" class="btn btn-info">Add to whishlist</a>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        <br>
+        <div class="container">
+          <div class="row"> 
+              <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                  <img src="images\d7.jpg" class="card-img-top" height="250" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">TOOBA</h5>
+                  <p class="card-text">₹499 <br>Free delivery</p>
+                  <a href="#" class="btn btn-info">Add to whishlist</a>
+                  </div>
+                  </div>
+              </div>
+          <div class="col-3">
+              <div class="card" style="width: 18rem;">
+              <img src="images\d5.jpg" class="card-img-top" height="250" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">TOKYO</h5>
+              <p class="card-text">₹399 <br>Free delivery</p>
+              <a href="#" class="btn btn-info">Add to whishlist</a>
+              </div>
+              </div>
+          </div>
+          <div class="col-1"></div>
+              <div class="card" style="width: 18rem;">
+              <img src="images\d6.jpg" class="card-img-top" height="250" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">JH MART</h5>
+              <p class="card-text">₹399<br>Free delivery</p>
+              <a href="#" class="btn btn-info">Add to whishlist</a>
+              </div>
+              </div>
+          </div>
+          
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+<!-- signup -->
+<div class="alert alert-danger" role="alert" style="text-align: center;font-family: fantasy; font-size: xx-large;">Register here
+</div>
+<form style="outline: auto;outline-width:2cm;" >
+  <br>
+  <label for="name"><b>Name</b></label>
+  <input type="text" placeholder="Enter Name" name="name" required style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;">
+  <br>
+  <label for="email"><b>Email</b></label>
+  <input type="text" placeholder="Enter Email" name="email" required style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;">
+  <br>
+  <label for="psw"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="psw" required style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;">
+  <br>
+  <label for="psw-repeat"><b>Repeat Password</b></label>
+  <input type="password" placeholder="Repeat Password" name="psw-repeat" required style="width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;">
+  <br>
+  <hr>
+  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+  <br>
+  <button type="submit" class="btn btn-info" >Register</button>
+  <br>
+  <div class="signin">
+     <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+  <br>
+</form>
+    <br>
+    <br>
+    <br>
+    
+    
+    
+<!-- About -->
+ <br>
+ <br>
+ <br>
+<div style="border: 2cm;">
+    <section id="about" >
+      <h1 style="text-align: center;">About</h1>
+      <hr>
+      <h2 style="text-align: center;">Our Mission</h2>
+      <p>We strive to provide the best services to our customers, ensuring quality and satisfaction in everything we do.</p>
+
+      <h2 style="text-align: center;">Our History</h2>
+      <p>Founded in 2020, we have grown from a small team to a leading company in our industry, dedicated to innovation and excellence.</p>
+
+      <h2 style="text-align: center;">Our Team</h2>
+      <p>Our team is made up of experienced professionals who are passionate about their work and committed to helping our clients succeed.</p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Company Name. All rights reserved.</p>
+</footer>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- footer -->
+      <footer style="background-color: #fce3f8; color: rgb(18, 17, 17); padding: 20px; text-align: center; font-family: fantasy;">
+        <div class="footer-content">
+            <h2>Clothing</h2>
+            <p>1234 Street Name, City, State, Zip</p>
+            <p>Email: info@company.com | Phone: (123) 456-7890</p>
+            
+            <div class="social-media">
+                <a href="#" style="color: white; margin: 0 10px; color: rgb(26, 100, 248);">Facebook</a>
+                <a href="#" style="color: white; margin: 0 10px;color: rgb(38, 178, 253);">Twitter</a>
+                <a href="#" style="color: white; margin: 0 10px;color: rgb(245, 13, 187);">Instagram</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom" style="margin-top: 20px; font-size: 0.8em;">
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+    
+      
+    </body>
+</html>
